@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class Input</title>
+	<title>Class Redirect</title>
 
 	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
 
@@ -27,8 +27,8 @@
 				<li><a href="class-Cookie.html">Cookie</a></li>
 				<li><a href="class-Database.html">Database</a></li>
 				<li><a href="class-Hash.html">Hash</a></li>
-				<li class="active"><a href="class-Input.html">Input</a></li>
-				<li><a href="class-Redirect.html">Redirect</a></li>
+				<li><a href="class-Input.html">Input</a></li>
+				<li class="active"><a href="class-Redirect.html">Redirect</a></li>
 				<li><a href="class-Session.html">Session</a></li>
 				<li><a href="class-Token.html">Token</a></li>
 				<li><a href="class-User.html">User</a></li>
@@ -68,11 +68,11 @@
 	</div>
 
 <div id="content" class="class">
-	<h1>Class Input</h1>
+	<h1>Class Redirect</h1>
 
 
 	<div class="description">
-	<p>Lớp thực hiện thao tác làm việc vơi dữ liệu đầu vào.</p>
+	<p>Lớp thực hiện thao tác làm việc với chức năng chuyển h.</p>
 	</div>
 
 
@@ -94,8 +94,8 @@
 				<b>Copyright:</b>
 				CongHoan Team<br>
 				<b>Author:</b>
-				Nguyễn Công Hoan<br>
-			<b>Located at</b> <a href="source-class-Input.html#3-43" title="Go to source code">Input.php</a>
+				Nguyễn Công Hoanăngướng<br>
+			<b>Located at</b> <a href="source-class-Redirect.html#2-30" title="Go to source code">Redirect.php</a>
 		<br>
 	</div>
 
@@ -103,77 +103,34 @@
 
 	<table class="summary methods" id="methods">
 	<caption>Methods summary</caption>
-	<tr data-order="exists" id="_exists">
+	<tr data-order="to" id="_to">
 
 		<td class="attributes"><code>
 			 public static
 
-			boolean
+			
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#_exists">#</a>
-		<code><a href="source-class-Input.html#10-28" title="Go to source code">exists</a>( <span>string <var>$type</var> = <span class="php-quote">'post'</span></span> )</code>
+		<a class="anchor" href="#_to">#</a>
+		<code><a href="source-class-Redirect.html#9-29" title="Go to source code">to</a>( <span>string|null <var>$location</var> = <span class="php-keyword1">null</span></span> )</code>
 
 		<div class="description short">
-			<p>Thực hiện kiểm biến đó có tồn tại hay không.</p>
+			<p>Hàm thực hiện chuyển hướng trang.</p>
 		</div>
 
 		<div class="description detailed hidden">
-			<p>Thực hiện kiểm biến đó có tồn tại hay không.</p>
+			<p>Hàm thực hiện chuyển hướng trang.</p>
 
 
 				<h4>Parameters</h4>
 				<div class="list"><dl>
-					<dt><var>$type</var></dt>
-					<dd>Loại phương thức kiểm tra "post" hoặc "get".</dd>
+					<dt><var>$location</var></dt>
+					<dd>Đường dẫn cần chuyển hướng.</dd>
 				</dl></div>
 
-				<h4>Returns</h4>
-				<div class="list">
-					boolean
-				</div>
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="get" id="_get">
-
-		<td class="attributes"><code>
-			 public static
-
-			string
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_get">#</a>
-		<code><a href="source-class-Input.html#29-42" title="Go to source code">get</a>( <span>string <var>$item</var></span> )</code>
-
-		<div class="description short">
-			<p>Thực hiện lấy dữ liệu biến.</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Thực hiện lấy dữ liệu biến.</p>
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$item</var></dt>
-					<dd>Tên biến trong POST hoặc GET.</dd>
-				</dl></div>
-
-				<h4>Returns</h4>
-				<div class="list">
-					string
-				</div>
 
 
 
@@ -207,7 +164,7 @@
 	</div>
 </div>
 </div>
-<script src="resources/combined.js?cd021bc814832c24a7cec5319ea03335bfba1caf"></script>
+<script src="resources/combined.js"></script>
 <script src="elementlist.js"></script>
 </body>
 </html>

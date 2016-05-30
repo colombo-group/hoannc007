@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class Config</title>
+	<title>Class Input</title>
 
 	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
 
@@ -23,11 +23,11 @@
 		<div id="elements">
 			<h3>Classes</h3>
 			<ul>
-				<li class="active"><a href="class-Config.html">Config</a></li>
+				<li><a href="class-Config.html">Config</a></li>
 				<li><a href="class-Cookie.html">Cookie</a></li>
 				<li><a href="class-Database.html">Database</a></li>
 				<li><a href="class-Hash.html">Hash</a></li>
-				<li><a href="class-Input.html">Input</a></li>
+				<li class="active"><a href="class-Input.html">Input</a></li>
 				<li><a href="class-Redirect.html">Redirect</a></li>
 				<li><a href="class-Session.html">Session</a></li>
 				<li><a href="class-Token.html">Token</a></li>
@@ -68,11 +68,11 @@
 	</div>
 
 <div id="content" class="class">
-	<h1>Class Config</h1>
+	<h1>Class Input</h1>
 
 
 	<div class="description">
-	<p>Lớp thực hiện thao tác làm việc với cấu hình.</p>
+	<p>Lớp thực hiện thao tác làm việc vơi dữ liệu đầu vào.</p>
 	</div>
 
 
@@ -91,9 +91,11 @@
 
 				<b>Category:</b>
 				classes<br>
+				<b>Copyright:</b>
+				CongHoan Team<br>
 				<b>Author:</b>
-				Nguyen Cong Hoan<br>
-			<b>Located at</b> <a href="source-class-Config.html#2-33" title="Go to source code">Config.php</a>
+				Nguyễn Công Hoan<br>
+			<b>Located at</b> <a href="source-class-Input.html#3-43" title="Go to source code">Input.php</a>
 		<br>
 	</div>
 
@@ -101,37 +103,76 @@
 
 	<table class="summary methods" id="methods">
 	<caption>Methods summary</caption>
+	<tr data-order="exists" id="_exists">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_exists">#</a>
+		<code><a href="source-class-Input.html#10-28" title="Go to source code">exists</a>( <span>string <var>$type</var> = <span class="php-quote">'post'</span></span> )</code>
+
+		<div class="description short">
+			<p>Thực hiện kiểm biến đó có tồn tại hay không.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Thực hiện kiểm biến đó có tồn tại hay không.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd>Loại phương thức kiểm tra "post" hoặc "get".</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
 	<tr data-order="get" id="_get">
 
 		<td class="attributes"><code>
 			 public static
 
-			string|false
+			string
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
 		<a class="anchor" href="#_get">#</a>
-		<code><a href="source-class-Config.html#9-32" title="Go to source code">get</a>( <span>string <var>$path</var> = <span class="php-keyword1">null</span></span> )</code>
+		<code><a href="source-class-Input.html#29-42" title="Go to source code">get</a>( <span>string <var>$item</var></span> )</code>
 
 		<div class="description short">
-			
+			<p>Thực hiện lấy dữ liệu biến.</p>
 		</div>
 
 		<div class="description detailed hidden">
-			<p>Lấy giá trị từ biến toàn cục cấu hình.</p>
+			<p>Thực hiện lấy dữ liệu biến.</p>
 
 
 				<h4>Parameters</h4>
 				<div class="list"><dl>
-					<dt><var>$path</var></dt>
-					<dd>Tên index lần lượt của giá trị trong mảng config cần lấy ra.</dd>
+					<dt><var>$item</var></dt>
+					<dd>Tên biến trong POST hoặc GET.</dd>
 				</dl></div>
 
 				<h4>Returns</h4>
 				<div class="list">
-					string|false<br>Nếu tồn tại index trả về giá trị của nó, nếu không tồn tại trả về là false.
+					string
 				</div>
 
 
@@ -166,7 +207,7 @@
 	</div>
 </div>
 </div>
-<script src="resources/combined.js?cd021bc814832c24a7cec5319ea03335bfba1caf"></script>
+<script src="resources/combined.js"></script>
 <script src="elementlist.js"></script>
 </body>
 </html>
